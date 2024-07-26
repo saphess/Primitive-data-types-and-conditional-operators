@@ -1,6 +1,6 @@
 public class Task2 {
     public static void main(String[] args){
-        int initial_account = 100;
+        int initialAccount = 100;
         int replenishment = 1100;
 
         int bonus;
@@ -15,10 +15,10 @@ public class Task2 {
         if (replenishment >= 1000)  {
             bonus = replenishment / 100;
             System.out.println("Бонус равен " + bonus + " руб.");
-            System.out.println("Итоговая сумма на счету " + (replenishment + initial_account + bonus) + " руб.");
+            System.out.println("Итоговая сумма на счету " + (replenishment + initialAccount + bonus) + " руб.");
         }
         else {
-            System.out.println("Бонусов нет, итоговая сумма на счету " + (replenishment + initial_account) + " руб.");
+            System.out.println("Бонусов нет, итоговая сумма на счету " + (replenishment + initialAccount) + " руб.");
         }
     }
 }
