@@ -1,5 +1,5 @@
-public class Task1{
-    public static void main(String[] args){
+public class Main {
+    public static void main(String[] args) {
         int ticketPrice = 13_678;
         int priceOfTheMile = 20;
 
